@@ -30,3 +30,9 @@ Share the outcomes and impact of the project. Discuss any measurable achievement
 
 Conclusion:
 Reflect on the experience of developing the project as part of the Capgemini School training program. Discuss how the program enhanced your skills, knowledge, and overall professional journey. Mention any future aspirations or areas of interest inspired by this experience.
+
+ng build -- base -href="https://william-cirico.github.io/proway-computers/" --output-path docs
+ng build --base-href="https://mbraga2023.github.io/projeto-ecommerce-angular/" 
+
+
+angular.json ("outputpath")
