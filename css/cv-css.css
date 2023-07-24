@@ -1,0 +1,91 @@
+html{
+    font-size: 100%;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 3rem 1rem;
+    min-height: 100vh;
+      background-color: var(--color-gray-light-3);
+  
+  }
+  *{
+    box-sizing: border-box;
+  }
+  .title-name{
+  text-align: center;
+  margin-top: 1rem;
+  }
+  .left-column a{
+    color: rgb(7, 35, 87);
+    
+  }
+  .left-column a:hover{
+    color: blue;
+  }
+  .left-column a:visited{
+    color: #333;
+  }
+  
+  .container {
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    box-shadow: 0px 0px 1px;
+  
+   
+  }
+  
+  .left-column, .right-column {
+    flex-basis: 45%; /* Adjust the width of columns */
+  }
+  
+  .left-column {
+    text-align: center;
+    
+  }
+  
+  .right-column {
+    padding-left: 20px;
+  }
+  
+  .profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info h2,
+  .expertises h2,
+  .professional-experience h2,
+  .academic-courses h2,
+  .academic-experience h2 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  
+  .social-links a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .social-links a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  .page-footer,
+  .credits{
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 0.9rem;
+  }
+  .aditional-links a{
+  color: gray;
+  }
